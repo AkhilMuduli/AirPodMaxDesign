@@ -1,0 +1,223 @@
+@media screen and (max-width: 1500px) {
+  .section .overlay img {
+    height: 70vh;
+    top: 10vw;
+    left: -2vw;
+  }
+
+  .marquee h1 {
+    font-size: 75px;
+    line-height: 65px;
+  }
+
+  .box {
+    display: none;
+  }
+
+  .marquee {
+    height: 56vh;
+    width: 40vw;
+  }
+
+  .marquee p,
+  .learn {
+    font-size: medium;
+    line-height: 18px;
+  }
+
+  .learn {
+    padding: 10px 5px;
+    max-width: 20vw;
+  }
+
+  .flex {
+    width: 100%;
+  }
+
+  .flex .marquee {
+    width: 50%;
+  }
+
+  .page3 .overlay2 {
+    top: 10vh;
+    right: -2vw;
+  }
+  .page3 .overlay2 img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* .flex {
+    flex-direction: column;
+  } */
+  .page1 nav .menu h3 {
+    display: none;
+  }
+  .page1 nav .menu i {
+    display: flex;
+    font-size: large;
+  }
+
+  .foot {
+    display: none;
+  }
+  .section {
+    min-height: 100vh;
+  }
+
+  /* .hero {
+    flex-wrap: wrap;
+  } */
+
+  .section .overlay img {
+    left: 10%;
+    transform: translate(-20%);
+  }
+
+  .page1 .hero .headphone img {
+    width: 70vw;
+    top: -5vw;
+    left: -10vw;
+  }
+  .page1 .hero .headSide img {
+    display: none;
+  }
+
+  .flex .left_hero img {
+    height: 60vw;
+    width: 50vw;
+    /* position: absolute; */
+    left: -10vw;
+  }
+
+  .page3 .headphone img {
+    width: 150%;
+    left: 40%;
+  }
+
+  .page4 .hero .headphone img {
+    width: 150%;
+    left: -30%;
+  }
+  .page4 .marquee .head img {
+    width: 100%;
+  }
+
+  .page3 .overlay2 {
+    top: 20vh;
+    right: -20vw;
+  }
+
+  .page2 .marquee h1,
+  .page4 .marquee h1,
+  .page3 .marquee h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .page2 .marquee p,
+  .page4 .marquee p,
+  .page3 .marquee p {
+    font-size: 16px;
+    line-height: 22px;
+    word-spacing: 1px;
+  }
+
+  .page2 .marquee .learn,
+  .page4 .marquee .learn,
+  .page3 .marquee .learn {
+    margin-top: 2vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    padding: 8vw 4vw;
+  }
+  .section .overlay img {
+    height: 50vh;
+    top: 15vh;
+    left: 10%;
+    transform: translate(-20%);
+  }
+  .marquee {
+    width: 100%;
+    z-index: 1;
+  }
+  .flex .left_hero img {
+    height: 60vw;
+    width: 50vw;
+    /* position: absolute; */
+    left: -10vw;
+  }
+
+  .page3 .headphone img {
+    width: 150%;
+    left: 40%;
+  }
+
+  .page4 .hero .headphone img {
+    width: 150%;
+    left: -30%;
+  }
+  .page4 .marquee .head img {
+    width: 100%;
+  }
+
+  .page3 .overlay2 {
+    top: 10vh;
+    right: -20vw;
+  }
+
+  .page3 .marquee {
+    width: 100%;
+    /* background-color: red; */
+  }
+  .page3 .marquee p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .flex,
+  .hero {
+    flex-direction: column;
+  }
+  .section {
+    height: auto !important;
+  }
+
+  .page1 .hero .headphone img {
+    width: 95vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+  }
+
+  .marquee {
+    margin: 20vw 0;
+    height: 45vh;
+  }
+  .page2 .marquee h1 {
+    font-size: 45px;
+  }
+
+  .learn {
+    min-width: 200px;
+  }
+
+  .page2 .left_hero {
+    display: none;
+  }
+  .page2 .marquee {
+    width: 80%;
+  }
+  .page2 .marquee p {
+    margin: 5vw 0;
+  }
+
+  .page3 .overlay2 {
+    top: 70vh;
+    right: -20vw;
+  }
+}

@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  width: 100%;
+}
+.section {
+  padding: 0 4vw;
+  overflow: hidden;
+}
+.section .overlay img {
+  position: absolute;
+  z-index: 0;
+  height: 80vh;
+  top: 6vw;
+  left: -2vw;
+}
+.page1 {
+  width: 100%;
+  height: 100vh;
+  /* background: #b4c5cf; */
+  background: linear-gradient(45deg, #06517923 10%, #b4c5cf 100%);
+}
+.page1 nav {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
+.page1 nav .menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3vw;
+  color: #191919;
+}
+.page1 nav .menu i {
+  display: none;
+}
+.page1 nav .menu h3 {
+  font-size: medium;
+  text-transform: capitalize;
+  color: #19191998;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page1 .hero .headphone img {
+  position: relative;
+  width: 55vw;
+  top: -5vw;
+  left: -2vw;
+  filter: drop-shadow(30px 20px 20px #4e4e4e9c);
+}
+.page1 .hero .headSide img {
+  filter: drop-shadow(10px 20px 20px #4e4e4e9c);
+  position: relative;
+  height: 95vh;
+}
+.marquee h1 {
+  font-size: 100px;
+  line-height: 90px;
+}
+
+.marquee {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 56vh;
+  width: 40vw;
+}
+.marquee p,
+.learn {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: large;
+  line-height: 24px;
+}
+.learn {
+  padding: 20px 10px;
+  border-radius: 50px;
+  color: #fff;
+  text-align: center;
+  background-color: #2f516d;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  color: #fff;
+  /* background-color: red; */
+  margin: auto;
+}
+.box {
+  width: 2%;
+}
+.flex .left_hero {
+  width: 32vw;
+}
+.flex .marquee {
+  width: 100%;
+  font-size: 22px;
+}
+
+.flex .marquee .hero {
+  width: 100%;
+  height: 40vh;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+.flex .marquee h1 {
+  font-size: 80px;
+  width: 100%;
+}
+.flex .marquee a {
+  width: 15vw;
+}
+.page2 {
+  background: #293e52;
+  width: 100%;
+  height: 100%;
+}
+.page2 .left_hero img {
+  height: 100%;
+  /* background-color: red; */
+}
+
+.page2 span {
+  color: transparent;
+  -webkit-text-stroke: #fff;
+  -webkit-text-stroke-width: 2px;
+}
+
+.page3 {
+  background: linear-gradient(45deg, #06517923 10%, #b4c5cf 100%);
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.page3 .overlay2 {
+  position: absolute;
+  top: 10vh;
+  right: 10vw;
+}
+.page3 .hero {
+  justify-content: space-between;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  /* background-color: red; */
+}
+.page3 .marquee {
+  width: 50%;
+  /* background-color: red; */
+}
+.page3 .headphone img {
+  width: 200%;
+  position: relative;
+  left: -50%;
+  filter: drop-shadow(30px 20px 20px #4e4e4e9c);
+
+  /* background-color: red; */
+}
+.page3 .headphone img {
+  width: 200%;
+  position: relative;
+  left: -50%;
+  filter: drop-shadow(30px 20px 20px #4e4e4e9c);
+
+  /* background-color: red; */
+}
+
+.page4 {
+  background-color: #293e52;
+  height: 100vh;
+  width: 100%;
+}
+.page4 .hero {
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.page4 .hero .headphone img {
+  width: 200%;
+  filter: drop-shadow(20px 10px 30px #00000057);
+  position: relative;
+  left: -20%;
+}
+.page4 .hero .flex .h1 {
+  font-size: 100px;
+  line-height: 90px;
+}
